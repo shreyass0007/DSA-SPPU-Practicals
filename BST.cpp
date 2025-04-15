@@ -131,7 +131,7 @@ class BST{
             return;
         }
         
-        
+        1
         postder(root->left);
         postder(root->right);
         cout<<root->data<<" ";

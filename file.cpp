@@ -43,7 +43,7 @@ public:
             file.ignore();
             getline(file, address);
             if (searchRoll == 0 || searchRoll == rollNo) {
-                cout << "Roll No: " << rollNo << ", Name: " << name << ", Division: " << div << ", Address: " << 					address << endl;
+                cout << "Roll No: " << rollNo << ", \nName: " << name << ", Division: " << div << ", Address: " << 					address << endl;
                 found = true;
             }
         }

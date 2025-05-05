@@ -64,9 +64,7 @@ int main() {
     string prefix;
     cout << "Enter prefix expression: ";
     cin >> prefix;
-
     ExpressionConverter converter;
     converter.convert(prefix);
-
     return 0;
 }

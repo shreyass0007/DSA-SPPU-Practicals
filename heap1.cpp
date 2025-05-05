@@ -15,7 +15,6 @@ void min_heapify(vector<int>& arr, int i, int n) {
         min_heapify(arr, smallest, n);
     }
 }
-
 void max_heapify(vector<int>& arr, int i, int n) {
     int largest = i;
     int left = 2 * i + 1;
